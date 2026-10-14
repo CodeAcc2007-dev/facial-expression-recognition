@@ -1,0 +1,14 @@
+torch==2.12.1
+torchvision==0.27.1
+pandas==2.3.3
+numpy>=2.0,<3
+Pillow==12.3.0
+matplotlib==3.10.8
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==6.30.1
+nbconvert==7.17.1
+reportlab==4.4.9
+pdfplumber==0.11.9
+pypdf==6.10.0
+pytest==8.4.2

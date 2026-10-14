@@ -1,0 +1,57 @@
+{
+  "selection_rule": "validation accuracy descending, macro F1 descending, timestamp ascending",
+  "selected": {
+    "run_id": "r03_resnet18_augment",
+    "timestamp": "2026-09-03T21:39:53+00:00",
+    "config": "configs/03_resnet18_augment.json",
+    "backbone": "resnet18",
+    "input_size": 96,
+    "seed": 42,
+    "split_hash": "43616ca5590b0eadc3b973ba002062dc49d10f5e2a83691e37270f5ed689d61a",
+    "loss": "cross_entropy;smoothing=0.0",
+    "aug": true,
+    "optimizer": "AdamW",
+    "lr": "backbone=0.0002;head=0.001",
+    "epoch_budget": 10,
+    "best_epoch": 8,
+    "runtime_min": 33.179,
+    "val_acc": 0.65598328,
+    "val_macro_f1": 0.62012358,
+    "per_class_f1_json": "{\"angry\": 0.576051779935275, \"disgust\": 0.5076923076923077, \"fear\": 0.4889753566796368, \"happy\": 0.8581314878892734, \"neutral\": 0.6201705970898144, \"sad\": 0.5463320463320464, \"surprise\": 0.7435114503816793}",
+    "checkpoint_path": "outputs/checkpoints/r03_resnet18_augment/best_checkpoint.pt",
+    "checkpoint_hash": "68e3c4c205b9627236c16e637ca4776acbb4e086c80922d28a902a8235cc6b2b",
+    "submission_hash": "9ee108779229e09e8898a42755ad6d18600e04e2ba8ece9968f68d03cc4eb633",
+    "hypothesis": "Conservative grayscale-safe geometric and intensity augmentation should improve accuracy without cropping away facial regions.",
+    "notes": "Single-variable comparison against r01: conservative augmentation only; smoothing excluded after r02 underperformed."
+  },
+  "ranking": [
+    {
+      "run_id": "r03_resnet18_augment",
+      "val_acc": 0.65598328,
+      "val_macro_f1": 0.62012358,
+      "best_epoch": 8,
+      "runtime_min": 33.179
+    },
+    {
+      "run_id": "r01_resnet18_ce",
+      "val_acc": 0.64309354,
+      "val_macro_f1": 0.61016925,
+      "best_epoch": 8,
+      "runtime_min": 25.705
+    },
+    {
+      "run_id": "r02_resnet18_smoothing",
+      "val_acc": 0.64013238,
+      "val_macro_f1": 0.60793716,
+      "best_epoch": 8,
+      "runtime_min": 23.642
+    },
+    {
+      "run_id": "r04_resnet18_graynorm",
+      "val_acc": 0.6314231,
+      "val_macro_f1": 0.60448657,
+      "best_epoch": 8,
+      "runtime_min": 28.846
+    }
+  ]
+}

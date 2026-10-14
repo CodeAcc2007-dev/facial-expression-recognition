@@ -1,0 +1,134 @@
+{
+  "best_epoch": 8,
+  "best_metrics": {
+    "accuracy": 0.6559832781745341,
+    "confusion_matrix": [
+      [
+        445,
+        4,
+        94,
+        38,
+        76,
+        122,
+        20
+      ],
+      [
+        23,
+        33,
+        9,
+        0,
+        4,
+        14,
+        4
+      ],
+      [
+        84,
+        2,
+        377,
+        32,
+        65,
+        154,
+        105
+      ],
+      [
+        35,
+        0,
+        25,
+        1240,
+        65,
+        48,
+        30
+      ],
+      [
+        52,
+        0,
+        43,
+        76,
+        618,
+        186,
+        18
+      ],
+      [
+        83,
+        2,
+        115,
+        29,
+        159,
+        566,
+        12
+      ],
+      [
+        24,
+        2,
+        60,
+        32,
+        13,
+        16,
+        487
+      ]
+    ],
+    "macro_f1": 0.6201235751428619,
+    "per_class": {
+      "angry": {
+        "f1": 0.576051779935275,
+        "precision": 0.596514745308311,
+        "recall": 0.5569461827284106,
+        "support": 799
+      },
+      "disgust": {
+        "f1": 0.5076923076923077,
+        "precision": 0.7674418604651163,
+        "recall": 0.3793103448275862,
+        "support": 87
+      },
+      "fear": {
+        "f1": 0.4889753566796368,
+        "precision": 0.5214384508990318,
+        "recall": 0.4603174603174603,
+        "support": 819
+      },
+      "happy": {
+        "f1": 0.8581314878892734,
+        "precision": 0.856945404284727,
+        "recall": 0.8593208593208593,
+        "support": 1443
+      },
+      "neutral": {
+        "f1": 0.6201705970898144,
+        "precision": 0.618,
+        "recall": 0.622356495468278,
+        "support": 993
+      },
+      "sad": {
+        "f1": 0.5463320463320464,
+        "precision": 0.5117540687160941,
+        "recall": 0.5859213250517599,
+        "support": 966
+      },
+      "surprise": {
+        "f1": 0.7435114503816793,
+        "precision": 0.7204142011834319,
+        "recall": 0.7681388012618297,
+        "support": 634
+      }
+    }
+  },
+  "checkpoint": "outputs/checkpoints/r03_resnet18_augment/best_checkpoint.pt",
+  "checkpoint_sha256": "68e3c4c205b9627236c16e637ca4776acbb4e086c80922d28a902a8235cc6b2b",
+  "device": "cpu",
+  "epochs_completed": 10,
+  "normalization": {
+    "mean": 0.5076826003187194,
+    "mode": "imagenet",
+    "source": "training partition only",
+    "std": 0.2551114815653567
+  },
+  "run_id": "r03_resnet18_augment",
+  "runtime_seconds": 1990.716349835,
+  "selection_eligible": true,
+  "selection_rule": "validation accuracy first, macro F1 second",
+  "split_hash": "43616ca5590b0eadc3b973ba002062dc49d10f5e2a83691e37270f5ed689d61a",
+  "status": "completed",
+  "test_set_used_for_training_or_selection": false,
+  "torch_threads": 4
+}

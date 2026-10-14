@@ -1,0 +1,21 @@
+{
+  "sha256": {
+    "outputs/selected_candidate.json": "f813753367308ca1ede7adeb9f619ea21a38c1e923f149cb7006069971b8d235",
+    "outputs/selected_run.json": "49737d84ef798033f14a4de140a1fa0fb302f2de0080607e3c8acf3b2c1142ce",
+    "outputs/candidate_ranking.md": "8ac26b6b1470aea7d32481a11f914deb123c2ea88b7a91864f8392df24668f6e",
+    "outputs/release_verification.json": "26c492200e9aee3a92c935e8e80c1e27135ed3e3aafc739eb08c1b32fd1f5a85",
+    "outputs/eda/audit_summary.json": "6697a9727844fa56ee4710de9d3e370170e8debfc32ba33e12d50c9296e810ec",
+    "outputs/final_analysis/summary.json": "9eddf0d5c7ac4af8416e282d39842d9f5cfeee52aba8f2b442651c8aba4ee1e0",
+    "outputs/final_analysis/confusion_matrices.png": "9cf5892424808f05d1d33240dd1fc8f33c7142dbf9d4bddabc2a58dcc9de2d6a",
+    "outputs/final_analysis/reliability_diagram.png": "4b2d355cf42472275f17cbb020168a832ce127d77fd167e2b08d997bad28c75b",
+    "outputs/final_analysis/calibration_bins.csv": "cf9929d84fbd7a304d162e54c2db129aadb1c1a6247be72d946223b6fa252df9",
+    "outputs/checkpoints/r01_resnet18_ce/config.json": "da200a046bfba161192e1c79b0603fca311b1c8339f8e9e85ea1fc5344f1ca64",
+    "outputs/checkpoints/r01_resnet18_ce/summary.json": "bed269c9ff96ece183c7d2aea5b14d3ef3f1bf3dab399e03f10889a0fac02c21",
+    "outputs/checkpoints/r02_resnet18_smoothing/config.json": "e65033fa79f7bdbe722cf760dd5cf8d615b31f66c2799b90d02a7e2e675167d3",
+    "outputs/checkpoints/r02_resnet18_smoothing/summary.json": "f1163e88936d1531d1bafd20ad4719e7346dd3638795031ed5bf451681c7eca5",
+    "outputs/checkpoints/r03_resnet18_augment/config.json": "a7fc86fa8cbe36747cf25d01481f2117fbdccaed060b2a4fe9ef5635ab74121e",
+    "outputs/checkpoints/r03_resnet18_augment/summary.json": "8b1038d52b2c3459c3f642e9d3dbe64a0a78d096cdb52e093b9f7b4f8dff69b3",
+    "outputs/analysis/ensemble_r01_resnet18_ce__r02_resnet18_smoothing__r03_resnet18_augment__tta/validation_predictions.csv": "3a5380b2d09691fda833567b7d0fd1d1ad35562bcec968aed1f33ca01a374818"
+  },
+  "boundary": "Recorded experiment or scenario artifacts; excludes raw third-party data and model weights."
+}

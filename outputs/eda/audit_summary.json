@@ -1,0 +1,41 @@
+{
+  "dataset": {
+    "class_counts": {
+      "angry": 3995,
+      "disgust": 436,
+      "fear": 4097,
+      "happy": 7215,
+      "neutral": 4965,
+      "sad": 4830,
+      "surprise": 3171
+    },
+    "image_size": [
+      48,
+      48
+    ],
+    "mode": "L",
+    "test_rows": 7178,
+    "train_rows": 28709
+  },
+  "duplicates": {
+    "all_exact_duplicate_groups": 1516,
+    "conflicting_training_label_groups": 39,
+    "groups_crossing_supplied_train_test": 531
+  },
+  "normalization": {
+    "mean": 0.5076826003187194,
+    "source": "training partition only",
+    "std": 0.2551114815653567
+  },
+  "seed": 42,
+  "split": {
+    "exact_hash_overlap": 0,
+    "strategy": "class-stratified grouped holdout by decoded-pixel SHA-256",
+    "train_rows": 22968,
+    "validation_rows": 5741
+  },
+  "split_hash": "43616ca5590b0eadc3b973ba002062dc49d10f5e2a83691e37270f5ed689d61a",
+  "status": "passed",
+  "test_policy": "test hashes audited for overlap disclosure only; no labels or predictions used for training",
+  "validation_fraction": 0.2
+}

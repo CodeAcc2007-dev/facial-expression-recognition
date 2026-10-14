@@ -1,0 +1,53 @@
+{
+  "candidate": {
+    "candidate_id": "ensemble_r01_resnet18_ce__r02_resnet18_smoothing__r03_resnet18_augment__tta",
+    "members": [
+      "r01_resnet18_ce",
+      "r02_resnet18_smoothing",
+      "r03_resnet18_augment"
+    ],
+    "tta": true,
+    "type": "ensemble",
+    "validation_accuracy": 0.6786274168263369,
+    "validation_macro_f1": 0.6439789079895994,
+    "validation_source": "outputs/analysis/ensemble_r01_resnet18_ce__r02_resnet18_smoothing__r03_resnet18_augment__tta/summary.json"
+  },
+  "checkpoint_hashes": {
+    "r01_resnet18_ce": "08885ea0573bf502df2c4c3a80e0cce89d070449a3c7bf5e3d2f2fd54affee53",
+    "r02_resnet18_smoothing": "ec17df0ce2e75fb5c125c39fcf8a1c4c05e9ec9ea6a93eba294fbcd93a6734bb",
+    "r03_resnet18_augment": "68e3c4c205b9627236c16e637ca4776acbb4e086c80922d28a902a8235cc6b2b",
+    "r04_resnet18_graynorm": "95d3f75b4659f81c10cb0a7c333c5171611ccacbd49ac9939c86aea711e08564"
+  },
+  "exact_test_id_order": true,
+  "notebooks": {
+    "01_eda.ipynb": {
+      "code_cells": 5,
+      "error_outputs": 0,
+      "unexecuted_code_cells": 0
+    },
+    "02_error_analysis.ipynb": {
+      "code_cells": 3,
+      "error_outputs": 0,
+      "unexecuted_code_cells": 0
+    },
+    "03_interpretability.ipynb": {
+      "code_cells": 2,
+      "error_outputs": 0,
+      "unexecuted_code_cells": 0
+    },
+    "FER_V2_Final_Submission.ipynb": {
+      "code_cells": 11,
+      "error_outputs": 0,
+      "unexecuted_code_cells": 0
+    }
+  },
+  "repeat_max_absolute_probability_difference": 0.0,
+  "status": "passed",
+  "submission": "outputs/submissions/ensemble_r01_resnet18_ce__r02_resnet18_smoothing__r03_resnet18_augment__tta.csv",
+  "submission_rows": 7178,
+  "submission_sha256": "20a59955fbfa4185f9e9f0b3c90f044b88ba9ae7a8ee9151a7a14a020956ce99",
+  "validation_metrics_recomputed": {
+    "accuracy": 0.6786274168263369,
+    "macro_f1": 0.6439789079895994
+  }
+}
